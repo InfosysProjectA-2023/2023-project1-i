@@ -11,13 +11,15 @@ h1{color:white;
 	padding-left:10px;
 	  }
 
-	h2{color:white;}
+	
+h2{color:white;}
 
-	h2{font-size: 30px;
+	
+h2{font-size: 30px;
 	  text-align: center;
 	  }	
 
-	.article{width:600px;     
+.article{width:600px;     
     background-color:white;
     box-shadow:5px 10px 5px gray;
     border-radius: 10px;
@@ -28,13 +30,13 @@ h1{color:white;
     margin-left:auto;
 　　}
 
-	.headerbox{
+.headerbox{
 	overflow:hidden;
   	text-align:center;}
 	
-	.header{ background-color:#339966;}
+.header{ background-color:#339966;}
 
-	.article{width:600px;     
+.article{width:600px;     
     background-color:#CCFFFF;
     box-shadow:5px 10px 5px gray;
     border-radius: 10px;
