@@ -1,38 +1,49 @@
-/* ページ全体の背景色などを設定 */
-main {
-	background: #efffff;
-}
+body{background-color: #DDFFDD;
+	    margin:auto;}
 
-/* ページの見出し領域の背景色，画像などを設定（id属性で設定） */
-/* 画像のファイルへのパスはこのCSSファイルのあるフォルダから見て，どこにあるかの相対パスとなる */
-.bg-head {
-	background: #deedff url(../photos/header_back_ground.jpg) repeat-x;
-}
+	h1{color:white;
+	font-family:serif;
+	text-align: center;
+	font-size: 50px;
+	margin: 0px;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left:10px;
+	  }
 
-/* class属性で設定した領域で背景を青系（#99e0ff）にする */
-.bg-lightblue{
-	background: #a9e0ff;
-}
+	h2{color:white;}
 
-.border-dashed{
-	border: 1pt;
-	border-style: dashed;
-}
+	h2{font-size: 30px;
+	  text-align: center;
+	  }	
 
-.border-radius{
-	border: 1pt;
-  border-radius: 10px;
-}
+	.article{width:600px;     
+    background-color:white;
+    box-shadow:5px 10px 5px gray;
+    border-radius: 10px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+　　}
 
-.box-shadow{
-	box-shadow: 2px 2px 4px gray; /*影の幅 右 下　ぼかしの幅　影の色(カラーコードも可） */
-}
+	.headerbox{
+	overflow:hidden;
+  	text-align:center;}
+	
+	.header{ background-color:#339966;}
 
-/* 地図の表示領域の設定 */
-#map_here{
-	float: left;
-	clear: left;
-	width: 340px;
-	height: 240px;
-}
+	.article{width:600px;     
+    background-color:#CCFFFF;
+    box-shadow:5px 10px 5px gray;
+    border-radius: 10px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    overflow-y:hidden;
 
+
+	
