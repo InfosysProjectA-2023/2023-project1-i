@@ -21,7 +21,7 @@ window.onload = function onLoad() {
 			id =obj_id.value0; //obj_idの値を取得
 		}
 		if(id == 0){
-			id = urlParam('id'); //?id=Nで指定されたとき
+			id = urlParam('1'); //?id=Nで指定されたとき
 		}
 
 		const fetch_json = async (url) => {//urlの文字列のURLからidまたはqで指定した値を持つJSONオブジェクトを取得
