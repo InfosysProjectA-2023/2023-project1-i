@@ -18,7 +18,7 @@ window.onload = function onLoad() {
 		var id = 0;
 		let obj_id = document.getElementById("obj_id"); //紹介対象idを表す<input type="hidden" id="obj_id" value="0">があったら
 		if(obj_id != null){
-			id =obj_id.value; //obj_idの値を取得
+			id =obj_id.value0; //obj_idの値を取得
 		}
 		if(id == 0){
 			id = urlParam('id'); //?id=Nで指定されたとき
