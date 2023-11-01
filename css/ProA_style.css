@@ -8,4 +8,11 @@
 	text-align:center;
           }
 
-      
+.lead{font-size:50px;
+	color: white;
+	background-color:#87D5AA;
+	margin: 0px;
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-left:10px;
+	text-align:center;}
