@@ -1,8 +1,8 @@
 { "introduction_obj_list": 
 	[
-		{ "title" : "文教大学湘南キャンパス",
-			"image_file" : "thumnail_sample_300",
-			"abstract" : "文教大学湘南キャンパスです．",
+		{ "title" : "ベストライフ湘南台",
+			"image_file" : "besutoraifu",
+			"abstract" : "ベストライフ湘南台です。．",
 			"score" : 4.6,
 			"image_file1" : "img101",
 			"image_file2" :	"img102",
