@@ -22,25 +22,26 @@ body{background-color:#CCE7D3;}
 .p-3 p-sm-5 mb-4 bg-img bg-head{padding:84px;
 			       }
 
-.pl-1 bg-lightblue{}
-
-.lead2{font-size:15px;
-	color: brack;
-	background-color:white;
+.pl-1 bg-lightblue{font-size:30px;
+	color: white;
+	background-color:#87D5AA;
 	margin: 0px;
 	padding-top:10px;
 	padding-bottom:20px;
 	padding-left:10px;
 	text-align:center;}
 
-p{font-size:15px;
-	color: brack;
-	background-color:white;
-	margin: 0px;
-	padding-top:10px;
-	padding-bottom:20px;
-	padding-left:10px;
-	text-align:center;}
+.lead2{width:600px;     
+    background-color:white;
+    box-shadow:5px 10px 5px gray;
+    border-radius: 10px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    overflow-y:hidden;}
+
 
 .pl-1 bg-lightblue{font-size:30px;
 	color: brack;
