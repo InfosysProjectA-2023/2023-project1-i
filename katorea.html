@@ -144,6 +144,20 @@
 	
   <script src="js/readJSON.js"></script>
 
+	<script>
+  // 地図を初期化
+  var map = L.map('map').setView([35.324, 139.411], 15); // 中心座標とズームレベルを設定
+
+  // OpenStreetMapのタイルレイヤーを追加
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+  }).addTo(map);
+
+  // マーカーを追加
+  L.marker([35.324, 139.411]).addTo(map)
+    .bindPopup("〒253-0081 神奈川県茅ヶ崎市下寺尾１８３５−２").openPopup();
+</script>
+
 </body>
 
 </html>
