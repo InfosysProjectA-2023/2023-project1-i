@@ -141,19 +141,7 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- 詳細情報のデータをDBからのデータに見立てたJSONファイルから読み取り -->
-	// JavaScript code in readJSON.js
-// This code should be placed at the end of your HTML file or included via a script tag.
-
-// Initialize the map
-var myMap = L.map('map_here').setView([35.1234, 139.5678], 15); // Replace with the actual latitude and longitude
-
-// Add a tile layer from OpenStreetMap
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-}).addTo(myMap);
-
-// Add a marker for the location
-L.marker([35.1234, 139.5678]).addTo(myMap).bindPopup("カトレアホーム").openPopup(); // Replace with the actual latitude and longitude
+	
   <script src="js/readJSON.js"></script>
 
 </body>
